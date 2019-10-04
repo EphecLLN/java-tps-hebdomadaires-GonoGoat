@@ -39,7 +39,7 @@ public class Calculatrice {
 	
 	@Override
 	public String toString() {
-		return "Calculatrice [getValCourante()=" + getValCourante() + "]";
+		return "La calculatrice affiche : " + getValCourante();
 	}
 
 	double getValCourante () {
