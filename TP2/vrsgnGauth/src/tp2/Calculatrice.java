@@ -33,8 +33,9 @@ public class Calculatrice {
 	/**
 	 * Elève la valeur courante au carré
 	 */
-	void carre() {
+	double carre() {
 		valeurCourante*=valeurCourante;
+		return valeurCourante;
 	}
 	
 	@Override
@@ -52,9 +53,8 @@ public class Calculatrice {
 	 * Méthode main permettant de lancer un test rapide de la classe calculatrice.
 	 * @param args les arguments de la ligne de commande
 	 */
-	public static void main(String[] args) {
-		Calculatrice myCalc = new Calculatrice();
-		myCalc.valeurCourante = 3;
+	public static void main(String [] args) {
+		Calculatrice myCalc = new Calculatrice(Double.parseDouble(args[0]));
 		myCalc.ajoute(5);
 		myCalc.soustrait(2);
 		System.out.println(myCalc.toString());
