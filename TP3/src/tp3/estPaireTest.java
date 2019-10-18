@@ -8,7 +8,7 @@ class estPaireTest {
 
 	@Test
 	void testEstPair() {
-		fail("Not yet implemented");
+		assertEquals(estPair(2));
 	}
 
 	@Test
