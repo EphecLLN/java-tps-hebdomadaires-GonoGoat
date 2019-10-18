@@ -15,7 +15,7 @@ public class estPaire {
 	*@return true si le nombre est pair
 	*@return false si le nombre est impair
 	*/
-	boolean estPair(int n) {
+	static boolean estPair(int n) {
 		if (n % 2 == 0) {
 			return true;
 		}
