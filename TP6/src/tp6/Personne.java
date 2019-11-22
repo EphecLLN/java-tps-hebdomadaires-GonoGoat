@@ -19,9 +19,9 @@ public class Personne {
 		this.numRegistre = 1;
 	}
 	public Personne(String nom, String prenom, int num) {
-		setNom(nom);
-		setPrenom(prenom);
-		setNumRegistre(num);
+		this.nom = nom;
+		this.prenom = prenom;
+		this.numRegistre = num;
 	}
 	/**
 	 * 
@@ -38,8 +38,8 @@ public class Personne {
 	 * @param p la personne en cours
 	 * @return une phrase contenant chaque information d'une personne
 	 */
-	public String toString (Personne p) {
-		return p.nom + " " + p.prenom + " " + p.numRegistre; 
+	public String toString () {
+		return this.nom + " " + this.prenom + " " + this.numRegistre; 
 	}
 
 	/**
@@ -88,6 +88,13 @@ public class Personne {
 			this.numRegistre = numRegistre;
 		}
 	}
-	
+	public static void main (String[] args){
+		Personne pers = new Personne("Jules", "Dupont", 123234);
+		Personne emp = new Employe("Jules", "Dupont", 123234, "EPHEC", 1500);
+		Personne ind = new Independant("Jules", "Dupont", 123234, "BE0123456789");
+		System.out.println(pers);
+		System.out.println(emp);
+		System.out.println(ind);
+	}
 	
 }

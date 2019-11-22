@@ -10,6 +10,12 @@ package tp6;
 public class Employe extends Personne {
 	private int salaire;
 	private String employeur;
+	
+	Employe(String nom, String prenom, int num, String employeur,int salaire) {
+		super(nom,prenom,num);
+		this.salaire = salaire;
+		this.employeur = employeur;
+	}
 	/**
 	 * @return the salaire
 	 */
@@ -33,6 +39,9 @@ public class Employe extends Personne {
 	 */
 	public void setEmployeur(String employeur) {
 		this.employeur = employeur;
+	}
+	public String toString () {
+		return super.toString() + " " + this.salaire + " " + this.employeur; 
 	}
 	
 	

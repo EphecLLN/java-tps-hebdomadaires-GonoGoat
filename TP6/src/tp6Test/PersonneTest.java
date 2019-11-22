@@ -3,7 +3,7 @@
  */
 package tp6Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
 import org.junit.jupiter.api.Test;
 
