@@ -1,7 +1,7 @@
 /**
  * 
  */
-package tp8;
+package tp8.Formes;
 
 /**
  * @author HE201654
