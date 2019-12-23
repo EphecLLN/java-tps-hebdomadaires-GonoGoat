@@ -8,7 +8,6 @@ package tp8.Formes;
  *
  */
 public class Point extends Shape {
-	int rayon;
 	
 	public Point(int absc, int ord) {
 		super(absc, ord);
@@ -22,4 +21,6 @@ public class Point extends Shape {
 		return 0;
 	}
 
+	@Override
+	public void agrandit(int facteur) { }
 }

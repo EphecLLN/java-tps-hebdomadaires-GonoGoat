@@ -1,8 +1,10 @@
 package tp8.Ecole;
 
+import tp8.Affichable;
+
 import java.time.*;
 
-abstract public class Personne {
+abstract public class Personne implements Affichable {
     private String nom = "";
     private String prenom = "";
     private LocalDate dateNaissance;
@@ -47,10 +49,20 @@ abstract public class Personne {
         return dateNaissance;
     }
 
+    @Override
+    public void affiche() {
+        System.out.println(this);
+    }
+
     public static void main(String[] args) {
-        Etudiant etu = new Etudiant("Gauthier","Verschraegen", LocalDate.of(2000,9,14),  LocalDate.of(2017,9,16));
-        System.out.println(etu);
-        Professeur prof = new Professeur("Toto","Tata",LocalDate.of(1975,5,13),LocalDate.of(2003,5,23));
-        System.out.println(prof);
+        try {
+            Etudiant etu = new Etudiant("Gauthier", "Verschraegen", LocalDate.of(2000, 9, 14), LocalDate.of(2017, 9, 16));
+            etu.affiche();
+        }
+        catch (YearException e) {
+            System.out.println(e);
+        }
+        Professeur prof = new Professeur("Toto","Tata",LocalDate.of(1985,5,13),LocalDate.of(2003,5,23));
+        prof.affiche();
     }
 }

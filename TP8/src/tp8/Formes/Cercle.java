@@ -22,4 +22,9 @@ public class Cercle extends Shape {
 	public double surface() {
 		return Math.pow(this.rayon,2) * Math.PI;
 	}
+
+	@Override
+	public void agrandit(int facteur) {
+		rayon *= facteur;
+	}
 }

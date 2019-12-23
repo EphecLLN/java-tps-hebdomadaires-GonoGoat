@@ -13,9 +13,14 @@ public class Professeur extends Personne {
         LocalDate now = LocalDate.now();
         Period period = Period.between(getArrivee(),now);
         int diff = period.getYears();
-        if (super.getAge() < 23) {
-            return diff - (23 - super.getAge());
+        if ((this.getArrivee().getYear() - this.getDateNaissance().getYear()) < 23) { // Si j'ia moins de 23 ans quand je suis arrivé
+            return diff - (this.getDateNaissance().getYear() + 23 -this.getArrivee().getYear());
         }
         return diff;
+    }
+
+    @Override
+    public void affiche() {
+        System.out.println(this);
     }
 }

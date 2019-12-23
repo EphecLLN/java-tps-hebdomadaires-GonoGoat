@@ -6,8 +6,15 @@ import java.time.Period;
 public class Etudiant extends Personne {
     private String matricule;
 
-    public Etudiant(String nom, String prenom, LocalDate dateNaissance, LocalDate dateArrivee) {
-        super(nom,prenom, dateNaissance, dateArrivee);
+    public LocalDate checkYear(LocalDate localDate) throws YearException {
+        if (localDate.getYear() < 2000 || localDate.getYear() > LocalDate.now().getYear()) {
+            throw new YearException("Année invalide");
+        }
+        return localDate;
+    }
+
+    public Etudiant(String nom, String prenom, LocalDate dateNaissance, LocalDate dateArrivee) throws YearException {
+        super(nom, prenom, dateNaissance, dateArrivee);
     }
 
     public int anciennete() {
@@ -23,7 +30,15 @@ public class Etudiant extends Personne {
         return matricule;
     }
 
+    @Override
     public String toString() {
         return super.toString() + "Matricule : " + matricule() + "\n";
     }
+
+    @Override
+    public void affiche() {
+        System.out.println(this);
+    }
+
+
 }

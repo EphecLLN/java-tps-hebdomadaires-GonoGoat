@@ -16,10 +16,15 @@ public class Carre extends Shape {
 	}
 	
 	public double perimetre() {
-		return this.longueur*4;
+		return longueur*4;
 	}
 	
 	public double surface() {
-		return Math.pow(this.longueur,2);
+		return Math.pow(longueur,2);
+	}
+
+	@Override
+	public void agrandit(int facteur) {
+		longueur *= facteur;
 	}
 }
