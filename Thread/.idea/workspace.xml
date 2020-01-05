@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/../TP9-MVC/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP9-MVC/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP9-MVC/tp7/controller/BibliothequeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP9-MVC/tp7/controller/BibliothequeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP9-MVC/tp7/model/Bibliotheque.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP9-MVC/tp7/model/Bibliotheque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +87,29 @@
       <option name="presentableId" value="Default" />
       <updated>1578225110648</updated>
     </task>
+    <task id="LOCAL-00001" summary="Thread Exam">
+      <created>1578231351600</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578231351600</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Thread Exam" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread Exam" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1578227734647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578227734647" />
+    <state x="537" y="114" key="CommitChangelistDialog2" timestamp="1578231350899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="537" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578231350899" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1578231184531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -125,6 +142,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578226572130" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1578231395305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578231395305" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

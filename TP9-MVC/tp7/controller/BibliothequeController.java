@@ -2,7 +2,7 @@ package controller;
 
 import model.Bibliotheque;
 import view.BibliothequeVue;
-
+@Deprecated
 public class BibliothequeController {
 	Bibliotheque model; 
 	BibliothequeVue vue;
@@ -25,7 +25,7 @@ public class BibliothequeController {
 		vue.affiche("Le livre a bien été rendu");
 	}
 
-
+@Deprecated
 	public void addView(BibliothequeVue vue) {
 		this.vue = vue;
 		

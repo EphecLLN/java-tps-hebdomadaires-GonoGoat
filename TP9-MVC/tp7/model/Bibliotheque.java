@@ -2,7 +2,7 @@ package model;
 
 
 import java.util.Observable;
-
+@Deprecated
 public class Bibliotheque extends Observable {
 	Livre [] livres; 
 	
