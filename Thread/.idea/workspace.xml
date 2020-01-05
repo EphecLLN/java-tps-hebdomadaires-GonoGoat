@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="594784c2-2ddc-4ef3-a3c2-72e866a13bce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../TP8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP9-MVC/.idea/TP9.1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP9-MVC/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP9-MVC/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP9-MVC/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP9-MVC/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP9-MVC/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP9-MVC/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP9-MVC/tp7/controller/BibliothequeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP9-MVC/tp7/controller/BibliothequeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP9-MVC/tp7/model/Bibliotheque.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP9-MVC/tp7/model/Bibliotheque.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\obi-o\Documents\2TL1\Git\java-tps-hebdomadaires-GonoGoat\Thread\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VyV23fVIfYZSWgD1zBnCBwy94T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="th.Main" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="th.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="594784c2-2ddc-4ef3-a3c2-72e866a13bce" name="Default Changelist" comment="" />
+      <created>1578225110648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578225110648</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1578227734647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578227734647" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1578231184531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578231184531" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1578231184530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578231184530" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1578231184530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578231184530" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1578231184531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578231184531" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1578226572130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578226572130" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1578226572130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578226572130" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1578226572129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578226572129" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1578226572130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1578226572130" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/th/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/th/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
